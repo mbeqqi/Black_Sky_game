@@ -1,0 +1,161 @@
+BEGIN
+
+level_name Experience
+player_start 650 720
+level_limits 3200 1400
+level_end_position 2950 1250
+
+
+BOX_BEGIN
+	position 0 0
+	dimension 900 700
+BOX_END
+
+BOX_BEGIN
+	position 0 0
+	dimension 2000 100
+BOX_END
+
+BOX_BEGIN
+	position 0 700
+	dimension 100 50
+BOX_END
+
+BOX_BEGIN
+	position 0 750
+	dimension 900 600
+BOX_END
+
+BOX_BEGIN
+	position 0 1300
+	dimension 2000 100
+BOX_END
+
+
+
+
+BOX_BEGIN
+	position 1200 150
+	dimension 700 100
+BOX_END
+
+BOX_BEGIN
+	position 1200 300
+	dimension 750 100
+BOX_END
+
+BOX_BEGIN
+	position 1200 450
+	dimension 700 100
+BOX_END
+
+BOX_BEGIN
+	position 1200 600
+	dimension 750 100
+BOX_END
+
+BOX_BEGIN
+	position 1200 750
+	dimension 700 100
+BOX_END
+
+BOX_BEGIN
+	position 1200 900
+	dimension 750 100
+BOX_END
+
+BOX_BEGIN
+	position 1200 1050
+	dimension 700 100
+BOX_END
+
+BOX_BEGIN
+	position 1200 1200
+	dimension 700 100
+BOX_END
+
+BOX_BEGIN
+	position 1200 1300
+	dimension 3000 100
+BOX_END
+
+//
+BOX_BEGIN
+	position 1950 300
+	dimension 50 700
+BOX_END
+//
+
+LASER_BEGIN
+	position 1949 720
+	direction -1 0
+	fire_interval 1000
+	hold_interval 3000
+	initial_state 0
+	colors 255 255 0 255 255 255
+LASER_END
+
+LASER_BEGIN
+	position 2199 125
+	direction -1 0
+	fire_interval 1000
+	hold_interval 3000
+	colors 255 255 0 255 255 255
+LASER_END
+
+LASER_BEGIN
+	position 2199 275
+	direction -1 0
+	fire_interval 1000
+	hold_interval 3000
+	colors 255 255 0 255 255 255
+LASER_END
+
+LASER_BEGIN
+	position 2199 1175
+	direction -1 0
+	fire_interval 1000
+	hold_interval 3000
+	colors 255 255 0 255 255 255
+LASER_END
+
+LASER_BEGIN
+	position 2199 1025
+	direction -1 0
+	fire_interval 1000
+	hold_interval 3000
+	colors 255 255 0 255 255 255
+LASER_END
+
+BOX_BEGIN
+	position 2200 0
+	dimension 700 500
+BOX_END
+
+BOX_BEGIN
+	position 2200 800
+	dimension 700 700
+BOX_END
+
+LASER_STAR_BEGIN
+	position 2550 650
+	direction -1 0
+	fire_interval 500
+	hold_interval 500
+	angular_velocity 0.5
+	colors 255 0 0 255 255 255
+LASER_STAR_END
+
+BOX_BEGIN
+	position 2650 600
+	dimension 50 75
+	center 25 37.5
+	velocity 0 -10
+BOX_END
+
+BOX_BEGIN
+	position 3000 0
+	dimension 200 2000
+BOX_END
+
+END
